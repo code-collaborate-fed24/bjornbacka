@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+# Björnbacka
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a for code-collaborate course
 
-## Available Scripts
+## How to run 
+
+1 Clone the whole project
+
+2 run `npm install` in terminal
+
+3 to view in brower `npm start`
 
 In the project directory, you can run:
 
