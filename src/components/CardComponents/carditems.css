@@ -5,9 +5,11 @@
   margin: 3rem 2.5rem 3rem 2.5rem;
   border: 2px solid black;
 }
-.item-container .img1 {
+
+.item-container .images {
   width: 100%;
   border-radius: 1rem;
+  margin-top: -1rem;
 }
 
 .text-wrapper {
@@ -39,4 +41,26 @@
   font-size: 16px;
   margin-top: -70px;
   width: 100%;
+  line-height: 25px;
+}
+
+.btns-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.left-btn {
+  color: black;
+  padding: 11px 25px;
+  border-radius: 14.56px;
+  cursor: pointer;
+}
+
+.right-btn {
+  background-color: #ab8e5c;
+  border-radius: 14.56px;
+  padding: 11px 25px;
+  cursor: pointer;
 }

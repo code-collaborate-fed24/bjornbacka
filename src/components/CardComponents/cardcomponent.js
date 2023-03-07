@@ -13,8 +13,7 @@ const CardContainer = () => {
       <div className="card-item-wrapper">
         {CardData.map((item) => (
           <CardItem
-            key={item.id}
-            imgSrc={item.img}
+            image={item.image}
             title={item.title}
             description={item.description}
           />
