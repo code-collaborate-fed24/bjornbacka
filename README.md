@@ -23,7 +23,7 @@ Client: Björnbacka / Inner Journeys
 3. run `npm start` to get the local host
 
 ## Commands 
-### Add a Branch
+* ### Add a Branch
 
 1. `git pull` to first pull latest changes 
 
