@@ -7,5 +7,4 @@ console.log("hi");
 const Partners = () => {
 	return <div>Partners</div>;
 };
-
 export default Partners;
