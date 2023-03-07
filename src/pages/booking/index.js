@@ -6,6 +6,7 @@ import Partners from "../../components/Partners";
 function index() {
   return (
     <>
+      <Header />
       <h1>booking page</h1>
     </>
   );
