@@ -1,11 +1,11 @@
 import React from "react";
 import "./partners.css";
-import { datas } from "../../data";
+import { datas } from "../../Data/data";
 console.log(datas);
 console.log("hi");
 
 const Partners = () => {
-	return <div>Partners</div>;
+  return <div>Partners</div>;
 };
 
 export default Partners;
