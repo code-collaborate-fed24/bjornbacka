@@ -1,0 +1,72 @@
+.kurser {
+	height: 40vh;
+	background-color: black;
+	background: url("../../../public/images/kurserbg.png") no-repeat;
+	background-size: cover;
+	background-position: center center;
+	border-radius: 2rem;
+	/* opacity: 0.85; */
+	width: 95%;
+	margin: 0 auto;
+}
+
+.first-content {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 2rem;
+}
+
+.first-content__one {
+	width: 40%;
+	padding: 1rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+.first-content__one p {
+	color: #ebd3a4;
+	letter-spacing: 3px;
+	font-weight: 500;
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.first-content__two {
+	width: 60%;
+}
+.first-content__two p {
+	color: #ebd3a4;
+	font-weight: 400;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+.second-content {
+	width: 95%;
+	margin: 0 auto;
+	padding: 1rem 3rem;
+}
+.second-content p {
+	word-spacing: 5px;
+	line-height: 1.5rem;
+	color: #ffffff;
+}
+.second-content p span {
+	color: #ebd3a4;
+	font-weight: 800;
+}
+.second-content__btn {
+	margin-top: 1rem;
+	padding: 0.5rem 1rem;
+	background-color: #00000080;
+	color: white;
+	transition: all 0.5s ease;
+}
+.second-content__btn:hover {
+	padding: 0.5rem 1rem;
+	background-color: #000000;
+	color: #ebd3a4;
+}
