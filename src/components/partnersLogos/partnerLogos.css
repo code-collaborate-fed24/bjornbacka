@@ -1,0 +1,9 @@
+.images-row {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.images-row img {
+    width: 20%;
+}
