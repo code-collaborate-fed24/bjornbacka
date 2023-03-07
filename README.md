@@ -30,3 +30,8 @@ Client: Björnbacka / Inner Journeys
 2. `git checkout -b name_of_new_branch` to create and switch to the new branch
 
 3. `git push origin name_of_new_branch` to push the branch to Github
+
+* ### Update a branch
+ +  Run `git merge master` To update branch X with master
+ +  Run `git checkout branch_name` to switch between branches
+ +
