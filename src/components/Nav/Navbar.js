@@ -12,7 +12,12 @@ const Nav = styled.nav`
 	display: flex;
 	align-items: center;
 	background-color: black;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	@media (max-width: 992px) {
+		justify-content: space-evenly;
+		gap: 1rem;
+		padding: 1rem 0;
+	}
 	.logo {
 		padding: 15px 0;
 	}

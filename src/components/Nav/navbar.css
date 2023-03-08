@@ -4,9 +4,15 @@
 	justify-content: center;
 	gap: 1rem;
 }
+@media screen and (max-width: 992px) {
+	.icon img:nth-last-child(1) {
+		display: none;
+	}
+}
 .searchbar {
 	position: relative;
 }
+
 .searchbar__img {
 	position: absolute;
 	top: 10%;
