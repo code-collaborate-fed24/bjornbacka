@@ -9,6 +9,11 @@
 	width: 95%;
 	margin: 0 auto;
 }
+@media screen and (max-width: 992px) {
+	.kurser {
+		height: 50vh;
+	}
+}
 
 .first-content {
 	width: 100%;
