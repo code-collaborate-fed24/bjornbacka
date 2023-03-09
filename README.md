@@ -5,6 +5,9 @@ This project is a for code-collaborate course.
 Team :front end and UX students 
 Client: Björnbacka / Inner Journeys
 
+##Figma Link : https://www.figma.com/file/QlhlxKPA450hV5VJ19uM0S/Team-2---bj%C3%B6rnbacka?node-id=0%3A1&t=DhQy8q7CRXzLyhuo-0
+
+
 ## Related Links
 
 ## Tech stack
