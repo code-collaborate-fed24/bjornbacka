@@ -1,0 +1,136 @@
+@font-face {
+  font-family: CormorantGaramond-Regular;
+  src: url(../../Assets/Cormorant_Garamond/CormorantGaramond-Regular.ttf);
+}
+
+.container {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 4rem 6rem 4rem;
+  border-top: solid #1b1b1c 1px;
+}
+
+.logo-icons {
+  display: flex;
+  justify-items: flex-start;
+}
+
+.about {
+  color: white;
+  margin-top: 3rem;
+  line-height: 25px;
+  width: 25rem;
+}
+
+.links-wrapper {
+  margin-bottom: 8rem;
+  margin-top: 4.4rem;
+  width: 14rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h4 {
+  margin-bottom: 0.5rem;
+  color: white;
+  padding-bottom: 1rem;
+  font-size: 20px;
+}
+
+.contact-wrapper {
+  margin-top: 4.4rem;
+}
+
+.contact-info {
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -3rem;
+  width: 20%;
+  margin-left: 40.5%;
+  margin-top: -4rem;
+  margin-bottom: 2.5rem;
+  color: white;
+}
+
+.fb .ig .twitter {
+  color: #ab8e5c;
+}
+
+.business-inc-container {
+  color: white;
+  text-align: center;
+  background-color: #1b1b1c;
+  padding: 1.3rem;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 1260px) {
+  .business-inc-container {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .business-inc-container {
+    margin-top: -1rem;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .links-wrapper {
+    margin-left: -11rem;
+  }
+  .contact-wrapper {
+    margin-right: 4.5rem;
+    margin-top: -5rem;
+    padding-right: 3rem;
+  }
+
+  .contact-info {
+    width: 19rem;
+    margin-right: -1.5rem;
+  }
+
+  h4 {
+    border-top: 1px #ab8e5c solid;
+    padding-top: 2rem;
+    width: 14.5rem;
+  }
+
+  .business-inc-container {
+    margin-top: -1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-wrapper {
+    margin-right: 1.5rem;
+    margin-top: -7rem;
+    padding-right: 10rem;
+  }
+
+  .contact-info {
+    width: 19rem;
+    margin-left: 4rem;
+  }
+
+  .links-wrapper {
+    margin-top: 2.5rem;
+  }
+  .logo-container {
+    width: 13rem;
+    margin-left: 9rem;
+  }
+}
