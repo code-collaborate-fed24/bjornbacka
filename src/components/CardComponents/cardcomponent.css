@@ -1,5 +1,5 @@
 .container-wrapper {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -43,7 +43,8 @@
 
 .card-item-wrapper {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	/* grid-template-columns: repeat(3, 1fr); */
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 	padding: 50px 0px;
 	text-align: center;
 	color: white;
@@ -51,5 +52,10 @@
 @media screen and (max-width: 992px) {
 	.card-item-wrapper {
 		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media screen and (max-width: 768px) {
+	.card-item-wrapper {
+		grid-template-columns: repeat(1, 1fr);
 	}
 }
