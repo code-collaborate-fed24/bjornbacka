@@ -9,12 +9,31 @@
 	color: #b69852;
 	font-size: 2rem;
 }
-.user-card {
+@media screen and (max-width: 992px) {
+	.first-content p {
+		color: #b69852;
+		font-size: 1rem;
+	}
+}
+
+.user-container {
 	width: 100%;
-	margin: 0.5rem 0;
+	display: flex;
+	gap: 1%;
+	flex-wrap: wrap;
+	padding: 1rem;
+}
+.user-card {
+	width: 49%;
+	margin: 0.5rem 0rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+@media screen and (max-width: 992px) {
+	.user-card {
+		width: 100%;
+	}
 }
 .user-card__left {
 	color: #b69852;

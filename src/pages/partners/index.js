@@ -8,6 +8,7 @@ function index() {
 	console.log(datas);
 	return (
 		<>
+			<Header />
 			<div className="partners-page">
 				<div className="first-content">
 					<p>
@@ -20,25 +21,27 @@ function index() {
 						förankrade i era behov.
 					</p>
 				</div>
-				{datas.map((user) => {
-					return (
-						<div key={user.id} class="user-card">
-							<div className="user-card__left">
-								<img
-									alt={user.id}
-									src={user.img}
-									width="80"
-									height="80"
-									style={{ borderRadius: "50%" }}
-								/>
-								<p>{user.name}</p>
+				<div className="user-container">
+					{datas.map((user) => {
+						return (
+							<div key={user.id} class="user-card">
+								<div className="user-card__left">
+									<img
+										alt={user.id}
+										src={user.img}
+										width="80"
+										height="80"
+										style={{ borderRadius: "50%" }}
+									/>
+									<p>{user.name}</p>
+								</div>
+								<div className="user-card__right">
+									<p>{user.content}</p>
+								</div>
 							</div>
-							<div className="user-card__right">
-								<p>{user.content}</p>
-							</div>
-						</div>
-					);
-				})}
+						);
+					})}
+				</div>
 			</div>
 		</>
 	);
