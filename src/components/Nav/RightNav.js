@@ -5,14 +5,19 @@ import styled from "styled-components";
 const Ul = styled.ul`
 	list-style: none;
 	display: flex;
+	align-items: center;
+	justify-contents: center;
 	flex-flow: row nowrap;
 	li {
 		padding: 18px 10px;
 		color: #ffffff;
 	}
+
 	li a {
 		color: #ffffff;
+		text-decoration: none;
 	}
+
 	@media (max-width: 992px) {
 		flex-flow: column nowrap;
 		background-color: #00000080;
@@ -23,13 +28,18 @@ const Ul = styled.ul`
 		height: 100vh;
 		width: 300px;
 		padding-top: 3.5rem;
-		transition: transform 0.3s ease-in-out;
+		transition: transform 0.5s ease-in-out;
 		li {
 			color: #fff;
 		}
 	}
 `;
-
+const lastLinkStyle = {
+	backgroundColor: "#B69852",
+	padding: "8px 16px",
+	borderRadius: 24,
+	color: "#000000",
+};
 const RightNav = ({ open }) => {
 	return (
 		<Ul open={open}>
@@ -43,7 +53,9 @@ const RightNav = ({ open }) => {
 				<Link to={"/"}>KURSER OCH RETREATS</Link>
 			</li>
 			<li>
-				<Link to={"/booking"}>BOKA</Link>
+				<Link style={lastLinkStyle} to={"/booking"}>
+					BOKA
+				</Link>
 			</li>
 		</Ul>
 	);

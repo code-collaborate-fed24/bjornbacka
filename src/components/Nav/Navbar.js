@@ -12,9 +12,9 @@ const Nav = styled.nav`
 	display: flex;
 	align-items: center;
 	background-color: black;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	@media (max-width: 992px) {
-		justify-content: space-evenly;
+		justify-content: space-between;
 		gap: 1rem;
 		padding: 1rem 0;
 	}
@@ -32,14 +32,6 @@ const Navbar = () => {
 					<img src="./images/logotxt.svg" alt="logotext" />
 				</div>
 			</Link>
-			<div className="searchbar">
-				<img
-					className="searchbar__img"
-					src="./images/iconsearch.svg"
-					alt="search"
-				/>
-				<input type="text" placeholder="Search" />
-			</div>
 			<Burger />
 		</Nav>
 	);
