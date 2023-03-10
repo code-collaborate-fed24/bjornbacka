@@ -7,9 +7,9 @@ const MultipleItems = () => {
 		dots: true,
 		infinite: false,
 		speed: 500,
-		slidesToShow: 4,
-		slidesToScroll: 4,
-		initialSlide: 0,
+		slidesToShow: 3,
+		slidesToScroll: 3,
+		initialSlide: 3,
 		responsive: [
 			{
 				breakpoint: 1024,
@@ -37,32 +37,72 @@ const MultipleItems = () => {
 			},
 		],
 	};
+	const divContainerStyle = { width: "70%", margin: "0 auto" };
+	const imgProps = {
+		imgAddress:
+			"https://images.unsplash.com/photo-1505820013142-f86a3439c5b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bXVzaHJvb218ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+		width: 150,
+		objectFit: "cover",
+		alt: "mushroom",
+	};
 	return (
-		<div style={{ width: "70%", margin: "0 auto" }}>
+		<div style={divContainerStyle}>
 			<Slider {...settings}>
 				<div>
-					<h3>1</h3>
+					<img
+						src={imgProps.imgAddress}
+						alt={imgProps.alt}
+						width={imgProps.width}
+					/>
 				</div>
 				<div>
-					<h3>2</h3>
+					<img
+						src={imgProps.imgAddress}
+						alt={imgProps.alt}
+						width={imgProps.width}
+					/>
 				</div>
 				<div>
-					<h3>3</h3>
+					<img
+						src={imgProps.imgAddress}
+						alt={imgProps.alt}
+						width={imgProps.width}
+					/>
 				</div>
 				<div>
-					<h3>4</h3>
+					<img
+						src={imgProps.imgAddress}
+						alt={imgProps.alt}
+						width={imgProps.width}
+					/>
 				</div>
 				<div>
-					<h3>5</h3>
+					<img
+						src={imgProps.imgAddress}
+						alt={imgProps.alt}
+						width={imgProps.width}
+					/>
 				</div>
 				<div>
-					<h3>6</h3>
+					<img
+						src={imgProps.imgAddress}
+						alt={imgProps.alt}
+						width={imgProps.width}
+					/>
 				</div>
 				<div>
-					<h3>7</h3>
+					<img
+						src={imgProps.imgAddress}
+						alt={imgProps.alt}
+						width={imgProps.width}
+					/>
 				</div>
 				<div>
-					<h3>8</h3>
+					<img
+						src={imgProps.imgAddress}
+						alt={imgProps.alt}
+						width={imgProps.width}
+					/>
 				</div>
 			</Slider>
 		</div>
