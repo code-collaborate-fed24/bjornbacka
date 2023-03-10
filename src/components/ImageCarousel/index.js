@@ -6,7 +6,7 @@ const MultipleItems = () => {
 	var settings = {
 		dots: true,
 		infinite: false,
-		speed: 500,
+		speed: 1200,
 		slidesToShow: 3,
 		slidesToScroll: 3,
 		initialSlide: 3,
@@ -37,7 +37,7 @@ const MultipleItems = () => {
 			},
 		],
 	};
-	const divContainerStyle = { width: "70%", margin: "0 auto" };
+	const divContainerStyle = { width: "90%", margin: "0 auto", height: 150 };
 	const imgProps = {
 		imgAddress:
 			"https://images.unsplash.com/photo-1505820013142-f86a3439c5b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bXVzaHJvb218ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
