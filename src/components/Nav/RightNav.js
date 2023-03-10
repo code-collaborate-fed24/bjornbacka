@@ -50,7 +50,7 @@ const RightNav = ({ open }) => {
 				<Link to={"/"}>PRIVAT</Link>
 			</li>
 			<li>
-				<Link to={"/"}>KURSER OCH RETREATS</Link>
+				<Link to={"/partners"}>KURSER OCH RETREATS</Link>
 			</li>
 			<li>
 				<Link style={lastLinkStyle} to={"/booking"}>
