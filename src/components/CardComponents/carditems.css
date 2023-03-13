@@ -1,71 +1,81 @@
+@font-face {
+  font-family: CormorantGaramond-Regular;
+  src: url(../../Assets/Cormorant_Garamond/CormorantGaramond-Regular.ttf)
+    format("truetype");
+}
+
 .item-container {
-	background-color: white;
-	border-radius: 1rem;
-	padding: 2rem 1rem 1.5rem 1rem;
-	margin: 3rem 2.5rem 3rem 2.5rem;
-	border: 2px solid black;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-evenly;
+  background-color: black;
+  border-radius: 1rem;
+  padding: 2rem 1rem 1.5rem 1rem;
+  margin: 3rem 2.5rem 3rem 2.5rem;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .item-container .images {
-	width: 100%;
-	object-fit: cover;
-	border-radius: 1rem;
-	margin-top: -1rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-top: -1rem;
 }
 
 .text-wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: left;
-	gap: 5rem;
-	flex-wrap: wrap;
-	max-width: 100%;
-	text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 5rem;
+  flex-wrap: wrap;
+  max-width: 100%;
+  text-align: left;
 }
 
 .visit-title {
-	width: 100%;
-	padding-top: 2rem;
-	font-size: 16px;
-	padding-top: -55rem;
-	color: black;
-	font-weight: bold;
+  width: 100%;
+  padding-top: 2rem;
+  font-size: 16px;
+  padding-top: -55rem;
+  color: #b69852;
+  font-weight: bold;
 }
 
 .description-wrapper {
-	width: 100%;
+  width: 100%;
 }
 
 .description {
-	color: black;
-	font-size: 16px;
-	margin-top: -70px;
-	width: 100%;
-	line-height: 25px;
+  color: #b69852;
+  font-size: 16px;
+  margin-top: -70px;
+  width: 100%;
+  line-height: 25px;
+  font-family: CormorantGaramond-Regular;
 }
 
 .btns-wrapper {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	margin-top: -10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -10px;
 }
 
 .left-btn {
-	color: black;
-	padding: 11px 25px;
-	border-radius: 14.56px;
-	cursor: pointer;
+  color: #ab8e5c;
+  padding: 11px 25px;
+  border-radius: 14.56px;
+  cursor: pointer;
+  font-family: CormorantGaramond-Regular;
 }
 
 .right-btn {
-	background-color: #ab8e5c;
-	border-radius: 14.56px;
-	padding: 11px 25px;
-	cursor: pointer;
+  background-color: #ab8e5c;
+  border-radius: 14.56px;
+  padding: 11px 25px;
+  cursor: pointer;
+  color: black;
+  font-family: CormorantGaramond-Regular;
 }
