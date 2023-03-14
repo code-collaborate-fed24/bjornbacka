@@ -51,7 +51,7 @@ const footer = () => {
             <br />
             <p>○ MATILDA@BJORNBACKA.SE</p>
             <br />
-            <p>○ © 2022, Björnbacka Retreatcenter</p>
+            <p>○ © 2023, Björnbacka Retreatcenter</p>
             <br />
             <p>○ Von Bahr Group AB 556648-6014</p>
             <br />
@@ -64,6 +64,9 @@ const footer = () => {
         <img className="fb" src="./images/facebook.svg" alt="facebook"></img>
         <img className="ig" src="./images/instagram.svg" alt="instagram"></img>
         <img className="twitter" src="./images/twitter.svg" alt="twitter"></img>
+      </div>
+      <div className="business-inc-container">
+        © 2023, Björnbacka Retreatcenter
       </div>
     </footer>
   );
