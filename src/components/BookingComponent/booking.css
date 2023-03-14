@@ -1,0 +1,99 @@
+.contact-card {
+  margin: 0 auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  text-align: center;
+  padding: 36px;
+}
+
+.form-inputs {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+  padding-bottom: 24px;
+}
+
+input,
+textarea {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-bottom: 1px solid #d5d4d8;
+}
+
+.form--input {
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  text-indent: 8px;
+}
+
+.form--message {
+  font-size: 20px;
+  grid-column: 1 / -1;
+  color: white;
+  background-color: transparent;
+  padding: 8px;
+}
+
+.form--input:focus,
+.form--input:active,
+.form--message:focus,
+.form--message:active {
+  outline: none;
+  border-bottom: 2px green solid;
+}
+
+.form--input--invalid,
+.form--input--invalid:focus,
+.form--input--invalid:active {
+  outline: none;
+  font-size: 20px;
+  text-indent: 8px;
+  color: red;
+  background-color: transparent;
+  border-bottom: 2px red solid;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
+.form--button {
+  padding: 1rem;
+  margin: auto 0 auto;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.form--button:hover {
+  background-color: #fffef1;
+  color: #2c5e2e;
+}
+
+.form--button:disabled,
+.form--button:disabled:hover,
+.form--button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
