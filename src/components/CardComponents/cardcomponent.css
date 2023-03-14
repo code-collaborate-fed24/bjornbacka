@@ -1,3 +1,12 @@
+.section {
+  margin: 0 auto;
+  background-image: url(../../Assets/CardComponentImages/bjornbacka-garden-img.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #1b1b1c;
+  padding-top: 2.5rem;
+}
+
 .container-wrapper {
   width: 90%;
   margin: 0 auto;
@@ -14,17 +23,17 @@
 .h1-h3-container {
   width: 40%;
   margin: 0 auto;
-  border: #b69852 3px solid;
+  border: #ba8917 3px solid;
   border-radius: 18px;
-  margin-top: 3rem;
+  margin-top: 0;
   margin-bottom: -4rem;
   height: 10rem;
   background-color: rgba(
     0,
     0,
     0,
-    0.3
-  ); /* Sets the opacity of the parent's background */
+    0.6
+  ); /*Sets the opacity of the parent's background*/
 }
 
 .h1-h3-container .h1 {
