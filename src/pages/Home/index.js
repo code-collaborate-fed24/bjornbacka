@@ -6,16 +6,17 @@ import Navbar from "../../components/Nav/Navbar";
 import Partners from "../../components/Partners";
 import PartnerLogos from "../../components/partnersLogos";
 
+import ImageCarousel from "../../components/ImageCarousel";
 import "./home.css";
 function index() {
 	return (
 		<>
 			<div className="homepage-container">
-				{/* <Header /> */}
 				<Navbar />
 				<Partners />
 				<Kurser />
 				<PartnerLogos />
+				<ImageCarousel />
 				<Footer />
 			</div>
 		</>

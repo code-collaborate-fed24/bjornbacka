@@ -6,15 +6,13 @@ import Partners from "../../components/Partners";
 import Navbar from "../../components/Nav/Navbar";
 
 function index() {
+	return (
+		<>
+			<Navbar />
 
-  return (
-    <>
-    <Navbar />
-    
-      <BookingComponent />
-    </>
-  );
-
+			<BookingComponent />
+		</>
+	);
 }
 
 export default index;
