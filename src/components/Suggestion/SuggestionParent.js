@@ -6,6 +6,7 @@ const SuggestionParent = () => {
 		<div className="suggestion-parent">
 			<Suggestion />
 			<Suggestion />
+			<Suggestion />
 		</div>
 	);
 };
