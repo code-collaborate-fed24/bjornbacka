@@ -1,0 +1,32 @@
+.suggestion-container {
+	background-color: #1b1b1b;
+	color: #b69852;
+	padding: 2rem 0rem;
+	width: 300px;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.suggestion-content {
+	padding: 1rem 1.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin: 1rem 0rem;
+}
+
+.suggestion-images-container {
+	background-color: #d9d9d9;
+	margin: 3rem 0rem;
+	padding: 1rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+}
+.suggestion-images-container img {
+	width: 80px;
+	height: 50px;
+	object-fit: fill;
+	border-radius: 0.5rem;
+}
