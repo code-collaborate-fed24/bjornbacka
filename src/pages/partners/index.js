@@ -26,13 +26,7 @@ function index() {
 						return (
 							<div key={user.id} class="user-card">
 								<div className="user-card__left">
-									<img
-										alt={user.id}
-										src={user.img}
-										width="80"
-										height="80"
-										style={{ borderRadius: "50%" }}
-									/>
+									<img alt={user.id} src={user.img} />
 									<p>{user.name}</p>
 								</div>
 								<div className="user-card__right">
