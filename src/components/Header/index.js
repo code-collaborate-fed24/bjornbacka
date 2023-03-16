@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
-import Booking from "../Booking";
+import Booking from "../BookingComponent";
 
 const Header = () => {
   return (
