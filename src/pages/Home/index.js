@@ -10,21 +10,23 @@ import CardComponents from "../../components/CardComponents/cardcomponent";
 import PartnerLogos from "../../components/partnersLogos";
 import Testimonial from "../../components/Testimonials";
 
-
 import ImageCarousel from "../../components/ImageCarousel";
 import "./home.css";
+import Map from "../../components/Map";
+import Hero from "../../components/Hero";
 function index() {
-
 	return (
 		<>
 			<div className="homepage-container">
 				<Navbar />
-        <CardComponents />
+				<CardComponents />
 				<Partners />
 				<Kurser />
 				<PartnerLogos />
-        <Testimonial />
+				<Hero />
+				<Testimonial />
 				<ImageCarousel />
+				<Map />
 				<Footer />
 			</div>
 		</>

@@ -1,5 +1,4 @@
 .homepage-container {
 	background-color: #1b1b1c;
-
-	height: 120vh;
+	min-height: 150vh;
 }
