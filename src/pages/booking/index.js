@@ -15,6 +15,7 @@ function index() {
 			<BookingComponent />
 			<h3>Suggestion</h3>
 			<SuggestionParent />
+			<Footer />
 		</div>
 	);
 }
