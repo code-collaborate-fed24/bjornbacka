@@ -4,8 +4,8 @@ import EventCard from './eventCard'
 const Events = () => {
     return (
         <section className='events-row'>
-            <EventCard className="event-card" eventImg="./Assets/Events/Garden.png" eventTitle="Utomhusaktiviteter" />
-            <EventCard className="event-card" eventImg="./Assets/Events/Cake.png" eventTitle="Vår matfilosofi" />
+            <EventCard className="event-card" eventImg="./Assets/Events/Couple.png" eventTitle="Utomhusaktiviteter" />
+            <EventCard className="event-card" eventImg="./Assets/Events/EventHall.png" eventTitle="Vår matfilosofi" />
         </section >
     )
 }

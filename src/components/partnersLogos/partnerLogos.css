@@ -1,9 +1,16 @@
-.images-row {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-}
+    .images-row {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        width: 40%;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        border-radius: 19px;
+    }
 
-.images-row img {
-    width: 20%;
-}
+    .images-row img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
