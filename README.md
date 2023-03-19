@@ -2,8 +2,9 @@
 
 This project is a for code-collaborate course.
 
-Team :front end and UX students 
-Client: Björnbacka / Inner Journeys
++ Team :front end and UX students 
+
++ Client: Björnbacka / Inner Journeys
 
 
 
