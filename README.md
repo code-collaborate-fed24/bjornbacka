@@ -8,8 +8,8 @@ Client: Björnbacka / Inner Journeys
 
 
 ## Related Links
-### Figma Link : [Here](https://www.figma.com/file/QlhlxKPA450hV5VJ19uM0S/Team-2---bj%C3%B6rnbacka?node-id=0%3A1&t=DhQy8q7CRXzLyhuo-0)
-### Website Demo :
+### [Figma link](https://www.figma.com/file/QlhlxKPA450hV5VJ19uM0S/Team-2---bj%C3%B6rnbacka?node-id=0%3A1&t=DhQy8q7CRXzLyhuo-0)
+### [Website Demo](https://bjornbacka-9ffo.vercel.app/)
 ## Tech stack
 + React 
 + Scrum mastering
