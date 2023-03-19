@@ -16,7 +16,7 @@
 
 .event-card img {
     width: 100%;
-    border-radius: 0.5rem;
+    border-radius: 12px;
 }
 
 .eventOverlay {
@@ -28,7 +28,7 @@
     position: absolute;
     bottom: 3px;
     text-align: center;
-    border-radius: 0px 0px 0.5rem 0.5rem;
+    border-radius: 0px 0px 12px 12px;
 }
 
 /* .eventOverlay :hover {
