@@ -8,7 +8,7 @@ import CardComponents from "../../components/CardComponents/cardcomponent";
 import PartnerLogos from "../../components/partnersLogos";
 import Testimonial from "../../components/Testimonials";
 import ImageCarousel from "../../components/ImageCarousel";
-import Events from "../../components/Events"
+import Events from "../../components/Events";
 import "./home.css";
 function index() {
 	return (
