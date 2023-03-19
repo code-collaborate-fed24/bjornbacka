@@ -16,11 +16,11 @@ function index() {
 			<div className="homepage-container">
 				<Navbar />
 				<CardComponents />
+				<Events />
+				<Testimonial />
 				<Partners />
 				<Kurser />
 				<PartnerLogos />
-				<Events />
-				<Testimonial />
 				<ImageCarousel />
 				<Footer />
 			</div>

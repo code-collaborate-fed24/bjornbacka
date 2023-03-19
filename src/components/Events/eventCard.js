@@ -1,13 +1,13 @@
 import React from 'react'
+import "./events.css"
 
-const EventCard = ({ eventImg, eventTitle }) => {
+const EventCard = (props) => {
     return (
         <div className='event-card'>
-            <img src={eventImg} alt={eventTitle}></img>
+            <img src={props.eventImg} alt={props.eventTitle}></img>
             <div className='eventOverlay'>
-                <h2>{eventTitle}</h2>
+                <p>{props.eventTitle}</p>
             </div>
-
         </div>
     )
 
