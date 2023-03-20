@@ -2,7 +2,11 @@ import React from "react";
 import BookingComponent from "../../components/BookingComponent";
 import Partners from "../../components/Partners";
 import Navbar from "../../components/Nav/Navbar";
-import "./bookingpage.css";
+
+import SuggestionParent from "../../components/Suggestion/SuggestionParent";
+import "./booking.css";
+
+
 
 function index() {
 
@@ -24,9 +28,13 @@ function index() {
           kvm stor utomhusterrass; stor trädgård för umgänge och lekar.
         </p>
         <BookingComponent />
+        		<h3>Suggestion</h3>
+			<SuggestionParent />
+			<Footer />
       </div>
     </>
   );
+
 }
 
 export default index;
