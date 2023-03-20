@@ -3,6 +3,7 @@ import CardData from "../../Data/card-component-data";
 import "../CardComponents/cardcomponent.css";
 
 const CardContainer = () => {
+
   return (
     <section className="section">
       <div className="container-wrapper">
@@ -25,6 +26,7 @@ const CardContainer = () => {
       </div>
     </section>
   );
+
 };
 
 export default CardContainer;
