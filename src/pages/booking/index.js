@@ -7,6 +7,7 @@ import Navbar from "../../components/Nav/Navbar";
 import "./bookingpage.css";
 
 function index() {
+
   return (
     <>
       <Navbar />

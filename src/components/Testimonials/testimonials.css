@@ -1,0 +1,23 @@
+.Testimonials-container {
+    width: 100vw;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.One,
+.Two {
+    border-radius: 12px;
+    background-color: #AB8E5C;
+    width: 40%;
+    padding: 2rem;
+}
+
+.Two {
+    padding: 0;
+}
+
+.Two img {
+    width: 100%;
+    border-radius: 12px;
+}
