@@ -10,18 +10,37 @@ import Testimonial from "../../components/Testimonials";
 import ImageCarousel from "../../components/ImageCarousel";
 import Events from "../../components/Events";
 import "./home.css";
+<<<<<<< HEAD
 function index() {
+=======
+import Map from "../../components/Map";
+import Hero from "../../components/Hero";
+
+
+function index() {
+
+>>>>>>> c0b9e2bd42cd194339cf05bdcb5cc006a65a663d
 	return (
 		<>
 			<div className="homepage-container">
 				<Navbar />
 				<CardComponents />
+<<<<<<< HEAD
 				<Events />
 				<Testimonial />
 				<Partners />
 				<Kurser />
 				<PartnerLogos />
 				<ImageCarousel />
+=======
+				<Partners />
+				<Kurser />
+				<PartnerLogos />
+				<Hero />
+				<Testimonial />
+				<ImageCarousel />
+				<Map />
+>>>>>>> c0b9e2bd42cd194339cf05bdcb5cc006a65a663d
 				<Footer />
 			</div>
 		</>
