@@ -8,18 +8,18 @@ import PartnerLogos from "../../components/partnersLogos";
 
 import "./home.css";
 function index() {
-	return (
-		<>
-			<div className="homepage-container">
-				{/* <Header /> */}
-				<Navbar />
-				<Partners />
-				<Kurser />
-				<PartnerLogos />
-				<Footer />
-			</div>
-		</>
-	);
+  return (
+    <>
+      <div className="homepage-container">
+        {/* <Header /> */}
+        <Navbar />
+        <Partners />
+        <Kurser />
+        <PartnerLogos />
+        <Footer />
+      </div>
+    </>
+  );
 }
 
 export default index;
