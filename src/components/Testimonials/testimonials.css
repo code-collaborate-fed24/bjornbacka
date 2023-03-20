@@ -3,6 +3,8 @@
     padding: 2rem 0;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .One,
@@ -31,6 +33,7 @@
 
 .Two img {
     width: 100%;
+    object-fit: contain;
     border-radius: 12px;
 }
 
@@ -39,6 +42,10 @@
 
 }
 
-/* .Two h1 {
-    transform: translate(-50%, -50%);
-} */
+@media screen and (max-width: 992px) {
+
+    .One,
+    .Two {
+        width: 90%;
+    }
+}
