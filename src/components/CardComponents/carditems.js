@@ -1,4 +1,6 @@
 import "./carditems.css";
+import { Link } from "react-router-dom";
+import Booking from "../BookingComponent";
 // import Pic1 from "../../Assets/CardComponentImages/pic1.jpg";
 // import Pic2 from "../../Assets/CardComponentImages/pic2.JPEG";
 // import Pic3 from "../../Assets/CardComponentImages/pic3.JPG";
@@ -14,7 +16,9 @@ const CardItem = (props) => {
         </div>
         <div className="btns-wrapper">
           <div className="left-btn">Läs mer</div>
-          <div className="right-btn">Boka</div>
+          <div className="right-btn">
+            <Link to="/booking">Boka</Link>
+          </div>
         </div>
       </div>
     </div>
