@@ -7,11 +7,10 @@
   background-color: black;
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 4rem 30rem 4rem;
-  border-top: solid #1b1b1c 1px;
+  padding: 1.4rem 4rem 30rem 4rem;
   color: #b69852;
-  margin-top: 6rem;
   margin-bottom: 2rem;
+  margin-top: 6rem;
 }
 
 .logo-icons {
@@ -30,6 +29,9 @@
   margin-bottom: 8rem;
   margin-top: 7.8rem;
   width: 14rem;
+}
+.footer-links a {
+  color: #b69852;
 }
 
 a {
