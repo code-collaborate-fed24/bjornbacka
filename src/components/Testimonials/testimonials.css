@@ -10,7 +10,19 @@
     border-radius: 12px;
     background-color: #AB8E5C;
     width: 40%;
-    padding: 2rem;
+    text-align: center;
+}
+
+.One {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 3rem;
+}
+
+.One h4 {
+    color: black;
 }
 
 .Two {
@@ -21,3 +33,12 @@
     width: 100%;
     border-radius: 12px;
 }
+
+.Two h1 {
+    padding: 2rem 0;
+
+}
+
+/* .Two h1 {
+    transform: translate(-50%, -50%);
+} */
