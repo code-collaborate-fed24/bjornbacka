@@ -39,67 +39,55 @@ const MultipleItems = () => {
 	};
 	const divContainerStyle = { width: "90%", margin: "0 auto", height: 150 };
 	const imgProps = {
-		imgAddress:
-			"https://images.unsplash.com/photo-1505820013142-f86a3439c5b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bXVzaHJvb218ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+		imgAddress: ["./Assets/Carousel/nature.svg", "./Assets/Carousel/TopViewBuilding.svg", "./Assets/Carousel/YogaCrew.svg"
+		],
 		width: 150,
 		objectFit: "cover",
 		alt: "mushroom",
 	};
+	console.log(imgProps.imgAddress[0]);
 	return (
 		<div style={divContainerStyle}>
 			<Slider {...settings}>
 				<div>
 					<img
-						src={imgProps.imgAddress}
+						src={imgProps.imgAddress[0]}
 						alt={imgProps.alt}
 						width={imgProps.width}
 					/>
 				</div>
 				<div>
 					<img
-						src={imgProps.imgAddress}
+						src={imgProps.imgAddress[1]}
+						alt={imgProps.alt}
+						width={imgProps.width}
+					/>
+				</div>
+
+				<div>
+					<img
+						src={imgProps.imgAddress[2]}
 						alt={imgProps.alt}
 						width={imgProps.width}
 					/>
 				</div>
 				<div>
 					<img
-						src={imgProps.imgAddress}
+						src={imgProps.imgAddress[0]}
 						alt={imgProps.alt}
 						width={imgProps.width}
 					/>
 				</div>
 				<div>
 					<img
-						src={imgProps.imgAddress}
+						src={imgProps.imgAddress[1]}
 						alt={imgProps.alt}
 						width={imgProps.width}
 					/>
 				</div>
 				<div>
 					<img
-						src={imgProps.imgAddress}
-						alt={imgProps.alt}
-						width={imgProps.width}
-					/>
-				</div>
-				<div>
-					<img
-						src={imgProps.imgAddress}
-						alt={imgProps.alt}
-						width={imgProps.width}
-					/>
-				</div>
-				<div>
-					<img
-						src={imgProps.imgAddress}
-						alt={imgProps.alt}
-						width={imgProps.width}
-					/>
-				</div>
-				<div>
-					<img
-						src={imgProps.imgAddress}
+						src={imgProps.imgAddress[2]}
 						alt={imgProps.alt}
 						width={imgProps.width}
 					/>

@@ -1,8 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer";
-import Kurser from "../../components/Kurser";
 import Navbar from "../../components/Nav/Navbar";
-import Partners from "../../components/Partners";
 import CardComponents from "../../components/CardComponents/cardcomponent";
 import PartnerLogos from "../../components/partnersLogos";
 import Testimonial from "../../components/Testimonials";
@@ -20,8 +18,6 @@ function index() {
 				<CardComponents />
 				<Hero />
 				<Testimonial />
-				<Partners />
-				<Kurser />
 				<PartnerLogos />
 				<ImageCarousel />
 				<Map />

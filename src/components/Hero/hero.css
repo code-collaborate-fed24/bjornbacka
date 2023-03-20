@@ -4,6 +4,7 @@
 	display: flex;
 	gap: 2rem;
 }
+
 .hero-left {
 	position: relative;
 	width: 50%;
@@ -12,6 +13,7 @@
 	background: url("../../../public/images/hero.svg") no-repeat center center;
 	background-size: cover;
 }
+
 .hero-right {
 	position: relative;
 	height: 400px;
@@ -20,6 +22,7 @@
 	background: url("../../../public/images/hero.svg") no-repeat center center;
 	background-size: cover;
 }
+
 .hero-left_content {
 	width: 100%;
 	text-align: center;
@@ -37,6 +40,7 @@
 	font-size: 1.2rem;
 	font-weight: 600;
 }
+
 .hero-right_content {
 	width: 100%;
 	text-align: center;
@@ -54,14 +58,17 @@
 	font-size: 1.2rem;
 	font-weight: 600;
 }
+
 @media screen and (max-width: 992px) {
 	.hero-container {
 		flex-direction: column;
 		gap: 2rem;
 	}
+
 	.hero-left {
 		width: 100%;
 	}
+
 	.hero-right {
 		width: 100%;
 	}
