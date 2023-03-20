@@ -10,6 +10,7 @@ import "./booking.css";
 
 function index() {
 
+
   return (
     <>
       <Navbar />
