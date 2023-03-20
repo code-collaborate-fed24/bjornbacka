@@ -2,14 +2,15 @@
 
 This project is a for code-collaborate course.
 
-Team :front end and UX students 
-Client: Björnbacka / Inner Journeys
++ Team :front end and UX students 
 
-##Figma Link : https://www.figma.com/file/QlhlxKPA450hV5VJ19uM0S/Team-2---bj%C3%B6rnbacka?node-id=0%3A1&t=DhQy8q7CRXzLyhuo-0
++ Client: Björnbacka / Inner Journeys
+
 
 
 ## Related Links
-
+### [Figma link](https://www.figma.com/file/QlhlxKPA450hV5VJ19uM0S/Team-2---bj%C3%B6rnbacka?node-id=0%3A1&t=DhQy8q7CRXzLyhuo-0)
+### [Website Demo](https://bjornbacka-9ffo.vercel.app/)
 ## Tech stack
 + React 
 + Scrum mastering
