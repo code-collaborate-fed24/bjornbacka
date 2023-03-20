@@ -11,7 +11,6 @@ import ImageCarousel from "../../components/ImageCarousel";
 import Events from "../../components/Events";
 import "./home.css";
 function index() {
-<<<<<<< HEAD
   return (
     <>
       <div className="homepage-container">
@@ -24,23 +23,22 @@ function index() {
       </div>
     </>
   );
-=======
-	return (
-		<>
-			<div className="homepage-container">
-				<Navbar />
-				<CardComponents />
-				<Events />
-				<Testimonial />
-				<Partners />
-				<Kurser />
-				<PartnerLogos />
-				<ImageCarousel />
-				<Footer />
-			</div>
-		</>
-	);
->>>>>>> 86d3fa9c33df68a732cb55e6e43f63cd1fe738f1
+
+  return (
+    <>
+      <div className="homepage-container">
+        <Navbar />
+        <CardComponents />
+        <Events />
+        <Testimonial />
+        <Partners />
+        <Kurser />
+        <PartnerLogos />
+        <ImageCarousel />
+        <Footer />
+      </div>
+    </>
+  );
 }
 
 export default index;
