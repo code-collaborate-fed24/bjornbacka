@@ -1,142 +1,73 @@
 @font-face {
-  font-family: CormorantGaramond-Regular;
-  src: url(../../Assets/Cormorant_Garamond/CormorantGaramond-Regular.ttf);
+	font-family: CormorantGaramond-Regular;
+	src: url(../../Assets/Cormorant_Garamond/CormorantGaramond-Regular.ttf);
 }
 
-.container {
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-  padding: 1.4rem 4rem 30rem 4rem;
-  color: #b69852;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+.container-footer {
+	width: 100%;
+	display: flex;
+	color: #b69852;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem 2rem;
+	background-color: #000000;
 }
-
-.logo-icons {
-  display: flex;
-  justify-items: flex-start;
+.icon-about-wrapper,
+.links-wrapper,
+.contact-wrapper {
+	width: 30%;
 }
-
-.about {
-  margin-top: 3rem;
-  line-height: 25px;
-  width: 25rem;
-  color: #b69852;
+.icon-about-wrapper {
+	line-height: 1.5rem;
 }
-
-.links-wrapper {
-  margin-bottom: 8rem;
-  margin-top: 7.8rem;
-  width: 14rem;
-}
-.footer-links a {
-  color: #b69852;
-}
-
-a {
-  text-decoration: none;
-  color: #b69852;
-}
-
-h4 {
-  margin-bottom: 0.5rem;
-  color: white;
-  padding-bottom: 1rem;
-  font-size: 20px;
-  color: #b69852;
-}
-
-/* .contact-wrapper {
-  margin-top: 6rem;
+/* .links-wrapper,
+.contact-wrapper {
+	padding-top: 2rem;
 } */
-
-.contact-info {
-  color: #b69852;
-  margin-top: 7.8rem;
+.links-wrapper {
+	text-align: center;
 }
-
+.footer-links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+/* .links {
+	margin-top: 3rem;
+} */
+.links a {
+	color: #b69852;
+	font-weight: 500;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	color: #b69852;
+	gap: 1rem;
+}
 .logo-container {
-  display: flex;
-  justify-content: space-around;
-  margin-top: -6rem;
-  width: 20%;
-  margin-left: 43%;
-  margin-bottom: 5rem;
+	display: flex;
 
-  color: #b69852;
+	gap: 1rem;
+}
+.contact-wrapper h4 {
+	margin-bottom: 1rem;
 }
 
-.fb .ig .twitter {
-  color: #ab8e5c;
-}
-
-.business-inc-container {
-  color: white;
-  text-align: center;
-  background-color: #1b1b1c;
-  padding: 1rem;
-  margin-top: -3.5rem;
-  width: 100%;
-}
-@media screen and (max-width: 1260px) {
-  .business-inc-container {
-    margin-top: 2rem;
-  }
-}
-
-@media screen and (max-width: 1060px) {
-  .business-inc-container {
-    margin-top: -1rem;
-  }
-}
-@media screen and (max-width: 1050px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .links-wrapper {
-    margin-left: -11rem;
-  }
-  .contact-wrapper {
-    margin-right: 4.5rem;
-    margin-top: -5rem;
-    padding-right: 3rem;
-  }
-
-  .contact-info {
-    width: 19rem;
-    margin-right: -1.5rem;
-  }
-
-  h4 {
-    border-top: 1px #ab8e5c solid;
-    padding-top: 2rem;
-    width: 14.5rem;
-  }
-
-  .business-inc-container {
-    margin-top: -1rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .contact-wrapper {
-    margin-right: 1.5rem;
-    margin-top: -7rem;
-    padding-right: 10rem;
-  }
-
-  .contact-info {
-    width: 19rem;
-    margin-left: 4rem;
-  }
-
-  .links-wrapper {
-    margin-top: 2.5rem;
-  }
-  .logo-container {
-    width: 13rem;
-    margin-left: 9rem;
-  }
+@media screen and (max-width: 992px) {
+	.container-footer {
+		flex-direction: column;
+	}
+	.icon-about-wrapper,
+	.links-wrapper,
+	.contact-wrapper {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 1rem auto;
+	}
 }

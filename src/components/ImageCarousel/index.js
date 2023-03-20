@@ -39,7 +39,10 @@ const MultipleItems = () => {
 	};
 	const divContainerStyle = { width: "90%", margin: "0 auto", height: "100%" };
 	const imgProps = {
-		imgAddress: ["./Assets/Carousel/nature.svg", "./Assets/Carousel/TopViewBuilding.svg", "./Assets/Carousel/YogaCrew.svg"
+		imgAddress: [
+			"./Assets/Carousel/nature.svg",
+			"./Assets/Carousel/TopViewBuilding.svg",
+			"./Assets/Carousel/YogaCrew.svg",
 		],
 		width: 150,
 		objectFit: "cover",
@@ -64,6 +67,27 @@ const MultipleItems = () => {
 					/>
 				</div>
 
+				<div>
+					<img
+						src={imgProps.imgAddress[2]}
+						alt={imgProps.alt}
+						width={imgProps.width}
+					/>
+				</div>
+				<div>
+					<img
+						src={imgProps.imgAddress[0]}
+						alt={imgProps.alt}
+						width={imgProps.width}
+					/>
+				</div>
+				<div>
+					<img
+						src={imgProps.imgAddress[1]}
+						alt={imgProps.alt}
+						width={imgProps.width}
+					/>
+				</div>
 				<div>
 					<img
 						src={imgProps.imgAddress[2]}
