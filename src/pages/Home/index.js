@@ -4,31 +4,41 @@ import Header from "../../components/Header";
 import Kurser from "../../components/Kurser";
 import Navbar from "../../components/Nav/Navbar";
 import Partners from "../../components/Partners";
-
 import CardComponents from "../../components/CardComponents/cardcomponent";
-
 import PartnerLogos from "../../components/partnersLogos";
 import Testimonial from "../../components/Testimonials";
-
-
 import ImageCarousel from "../../components/ImageCarousel";
+import Events from "../../components/Events";
 import "./home.css";
 function index() {
+  return (
+    <>
+      <div className="homepage-container">
+        {/* <Header /> */}
+        <Navbar />
+        <Partners />
+        <Kurser />
+        <PartnerLogos />
+        <Footer />
+      </div>
+    </>
+  );
 
-	return (
-		<>
-			<div className="homepage-container">
-				<Navbar />
+  return (
+    <>
+      <div className="homepage-container">
+        <Navbar />
         <CardComponents />
-				<Partners />
-				<Kurser />
-				<PartnerLogos />
+        <Events />
         <Testimonial />
-				<ImageCarousel />
-				<Footer />
-			</div>
-		</>
-	);
+        <Partners />
+        <Kurser />
+        <PartnerLogos />
+        <ImageCarousel />
+        <Footer />
+      </div>
+    </>
+  );
 }
 
 export default index;

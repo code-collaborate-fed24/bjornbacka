@@ -4,7 +4,6 @@ import { useState } from "react";
 import { send } from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Card from "../UI/Card";
 
 export default function Index() {
   const [toSend, setToSend] = useState({
@@ -73,12 +72,8 @@ export default function Index() {
   };
 
   return (
-    <Card className="contact-card">
-      <div className="contact-details">
-        <p> 070 - 759 0240</p>
-        <p>matilda@bjornbacka.se</p>
-      </div>
-      <h1>Kontakt</h1>
+    <div className="contact-card">
+      <div className="contact-details"></div>
       <form onSubmit={handleSubmit}>
         <div className="form-inputs">
           <input
@@ -115,7 +110,7 @@ export default function Index() {
             className="form--input"
           />
           <textarea
-            rows="3"
+            rows="6"
             type="text"
             name="message"
             placeholder="Meddelande"
@@ -125,10 +120,10 @@ export default function Index() {
           />
         </div>
         <button disabled={!formIsValid} className="form--button">
-          Skicka Meddelande
+          Boka
         </button>
         <ToastContainer />
       </form>
-    </Card>
+    </div>
   );
 }
