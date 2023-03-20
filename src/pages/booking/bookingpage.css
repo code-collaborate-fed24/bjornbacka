@@ -1,0 +1,40 @@
+body {
+  background-color: #1b1b1c;
+}
+
+.booking-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 388px;
+  width: 100%;
+  background-image: url("/public/images/booking.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .img-bookingback {
+  width: 100%;
+  height: 388px;
+} */
+
+.bookpage-container {
+  width: 90%;
+  margin: 0 auto 0;
+}
+
+.booking-title {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.473);
+  text-transform: uppercase;
+  border: #ab8e5c 2px solid;
+  color: #ab8e5c;
+  width: fit-content;
+}
+
+.booking--paragraph {
+  color: #ab8e5c;
+  line-height: 1.5rem;
+  text-align: justify;
+  padding: 70px 36px 50px;
+}
