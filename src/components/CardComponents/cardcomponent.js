@@ -13,7 +13,6 @@ const CardContainer = () => {
             En oas för meningsfulla möten söder om Stockholm
           </h3>
         </div>
-        <div className="container"></div>
         <div className="card-item-wrapper">
           {CardData.map((item) => (
             <CardItem
