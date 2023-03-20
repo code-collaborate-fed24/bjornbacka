@@ -37,7 +37,7 @@ const MultipleItems = () => {
 			},
 		],
 	};
-	const divContainerStyle = { width: "90%", margin: "0 auto", height: 150 };
+	const divContainerStyle = { width: "90%", margin: "0 auto", height: "100%" };
 	const imgProps = {
 		imgAddress: ["./Assets/Carousel/nature.svg", "./Assets/Carousel/TopViewBuilding.svg", "./Assets/Carousel/YogaCrew.svg"
 		],

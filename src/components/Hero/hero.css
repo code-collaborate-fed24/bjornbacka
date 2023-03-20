@@ -3,6 +3,7 @@
 	width: 100%;
 	display: flex;
 	gap: 2rem;
+	align-items: center;
 }
 
 .hero-left {
@@ -66,10 +67,10 @@
 	}
 
 	.hero-left {
-		width: 100%;
+		width: 90%;
 	}
 
 	.hero-right {
-		width: 100%;
+		width: 90%;
 	}
 }

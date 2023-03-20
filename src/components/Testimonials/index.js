@@ -1,6 +1,5 @@
 import React from "react";
 import "./testimonials.css";
-import Dropdown from "../Dropdown";
 
 const Testimonial = () => {
   return (
