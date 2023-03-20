@@ -14,7 +14,7 @@ const CardData = [
   },
   {
     id: 2,
-    title: "Host your own retreats",
+    title: "Hosta dina egna retreater",
     description:
       "I det nybyggda centret finns den 210 kvm stora öppna kurslokalen med en imponerande utsikt över åkrar och hästhagar, den rymliga salongen på nedervåningen, 90 kvm takterrass för avslappnade pauser i solen eller kvällar med fantastiska solnedgångar.",
     image: Pic3,
