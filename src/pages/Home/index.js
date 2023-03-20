@@ -11,21 +11,34 @@ import ImageCarousel from "../../components/ImageCarousel";
 import Events from "../../components/Events";
 import "./home.css";
 function index() {
-	return (
-		<>
-			<div className="homepage-container">
-				<Navbar />
-				<CardComponents />
-				<Events />
-				<Testimonial />
-				<Partners />
-				<Kurser />
-				<PartnerLogos />
-				<ImageCarousel />
-				<Footer />
-			</div>
-		</>
-	);
+  return (
+    <>
+      <div className="homepage-container">
+        {/* <Header /> */}
+        <Navbar />
+        <Partners />
+        <Kurser />
+        <PartnerLogos />
+        <Footer />
+      </div>
+    </>
+  );
+
+  return (
+    <>
+      <div className="homepage-container">
+        <Navbar />
+        <CardComponents />
+        <Events />
+        <Testimonial />
+        <Partners />
+        <Kurser />
+        <PartnerLogos />
+        <ImageCarousel />
+        <Footer />
+      </div>
+    </>
+  );
 }
 
 export default index;

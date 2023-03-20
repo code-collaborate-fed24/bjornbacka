@@ -24,10 +24,12 @@ body {
 }
 
 .booking-title {
-  padding: 30px;
+  font-size: 2.5rem;
+  padding: 25px 90px;
+  border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.473);
   text-transform: uppercase;
-  border: #ab8e5c 2px solid;
+  border: #ab8e5c 3px solid;
   color: #ab8e5c;
   width: fit-content;
 }
