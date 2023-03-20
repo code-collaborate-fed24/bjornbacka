@@ -25,7 +25,9 @@ function index() {
 					kvm stor utomhusterrass; stor trädgård för umgänge och lekar.
 				</p>
 				<BookingComponent />
-				<h3>Suggestion</h3>
+				<h3 style={{ textAlign: "center", color: "#FFFFFF", fontSize: 32 }}>
+					Suggestion
+				</h3>
 				<SuggestionParent />
 				<Footer />
 			</div>
