@@ -4,7 +4,6 @@
   flex-direction: column;
   justify-content: center;
   width: 90%;
-  text-align: center;
   padding: 36px;
 }
 
@@ -17,26 +16,30 @@
 
 input,
 textarea {
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  border-bottom-style: groove;
-  border-bottom: 1px solid #d5d4d8;
+  border: 1px solid #8d8d8d;
+  border-radius: 10px;
+}
+
+.form--input,
+.form--message,
+.form--input--invalid,
+.form--input--invalid:focus,
+.form--input--invalid:active {
+  font-size: 10px;
+  text-transform: uppercase;
+  padding-left: 15px;
 }
 
 .form--input {
-  font-size: 20px;
   color: white;
   background-color: transparent;
-  text-indent: 8px;
 }
 
 .form--message {
-  font-size: 20px;
   grid-column: 1 / -1;
   color: white;
   background-color: transparent;
-  padding: 8px;
+  padding: 15px;
 }
 
 .form--input:focus,
@@ -44,18 +47,16 @@ textarea {
 .form--message:focus,
 .form--message:active {
   outline: none;
-  border-bottom: 2px green solid;
+  border: 1px #aa8d5c solid;
 }
 
 .form--input--invalid,
 .form--input--invalid:focus,
 .form--input--invalid:active {
   outline: none;
-  font-size: 20px;
-  text-indent: 8px;
-  color: red;
+  color: rgb(251, 57, 57);
   background-color: transparent;
-  border-bottom: 2px red solid;
+  border: 1px rgb(250, 38, 38) solid;
 }
 
 textarea {
@@ -65,35 +66,39 @@ textarea {
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: white;
+  color: #8d8d8d;
   opacity: 1; /* Firefox */
 }
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: white;
+  color: #8d8d8d;
 }
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: white;
+  color: #8d8d8d;
 }
 
 .form--button {
   padding: 1rem;
-  margin: auto 0 auto;
-  border: 2px solid white;
-  border-radius: 50px;
+  border-radius: 15px;
+  border-color: #aa8d5c;
+  background-color: #aa8d5c;
+  color: white;
+  justify-self: left;
+  width: 45%;
 }
 
 .form--button:hover {
-  background-color: #fffef1;
-  color: #2c5e2e;
+  background-color: #aa8d5c;
+  border-color: #aa8d5c;
+  color: beige;
 }
 
 .form--button:disabled,
 .form--button:disabled:hover,
 .form--button:disabled:active {
-  background-color: #ccc;
-  color: #292929;
-  border-color: #ccc;
+  background-color: #aa8d5c;
+  border-color: #aa8d5c;
+  color: beige;
   cursor: not-allowed;
 }
