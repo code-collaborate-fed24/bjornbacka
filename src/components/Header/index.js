@@ -22,7 +22,7 @@ const Header = () => {
         <input type="text" placeholder="Search" />
       </div>
       <div className="items">
-        <a href="www.google.com">FORETAG</a>
+        <a href="www.google.com">FÖRETAG</a>
         <a href="www.google.com">PRIVAT</a>
         <a href="www.google.com">KURSER OCH RETREATS</a>
         <Link to="/booking">BOKA</Link>

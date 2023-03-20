@@ -59,7 +59,7 @@
 
 .btns-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-top: -50px;
 }

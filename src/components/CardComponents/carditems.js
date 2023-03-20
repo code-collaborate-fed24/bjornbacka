@@ -13,8 +13,8 @@ const CardItem = (props) => {
           <p className="description">{props.description}</p>
         </div>
         <div className="btns-wrapper">
-          <div className="left-btn">Read More</div>
-          <div className="right-btn">Book now</div>
+          <div className="left-btn">Läs mer</div>
+          <div className="right-btn">Boka</div>
         </div>
       </div>
     </div>
