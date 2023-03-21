@@ -1,12 +1,19 @@
 .map {
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #1b1b1c;
-  margin-top: 2rem;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #1b1b1c;
+	margin-top: 2rem;
 }
 iframe {
-  border: none;
-  border-radius: 1rem;
+	width: 60%;
+	margin: 0 auto;
+	border: none;
+	border-radius: 1rem;
+}
+@media screen and (max-width: 992px) {
+	iframe {
+		width: 80%;
+	}
 }
